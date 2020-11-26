@@ -1,15 +1,38 @@
 # ada-2020-project-milestone-p3-p3_adanas
 
 ## Title
+Quantifying trading behavior for near-term crisis prediction.
+
 ## Abstract
-A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why? 
+The paper shows a clear improvement in near-term forecasting performance by adding appropriate Google Trends time series as predictors. In particular, as seen in the replicated figure 2, they highly outperform regular models during recessions. This suggests that quantifying traders psychology, specifically fear, using Google Trends may improve predicting the close future financial crisis. This seems interesting since we just witnessed the covid-19 crisis in march 2020. This field of research is known as behavioral finance.
+
 ## Research Questions
-A list of research questions you would like to address during the project.
+Can we use the stock market data and Google Trends for january and february 2020 to predict the stock market crash of march 2020? 
+How much it outperforms models not using Google Trends?
+What are the list of queries that are significant in this case? 
+
 ## Proposed dataset
-List the dataset(s) you want to use, and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you've read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible given the datasets at hand.
+Dow Jones Industrial Average (DJIA) 
+S&P 500 Index
+Nasdaq Composite
+Google Trends (of course…)
+
+All the financial datasets are available on Yahoo Finance and can be accessed using the library yfinance.
+
 ## Methods
+As done in the paper, we should first find a rather simple forecasting model for the market index price and improve it by adding appropriate Google Trends time series. First, we should have a list of keywords (queries) that are significant. Second, find the base model. Finally, improve the model and quantify the improvement in forecasting performance.
+
 ## Proposed timeline
+- Task A: Get the data and check it (It may need some cleaning or tranformation)
+- Task B: Fit a baseline model and an improved model
+- Task C: Compare our results and interpret them
+- Task D: Conclusion
+
 ## Organization within the team
-A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
+- 
+- 
+
 ## Questions for TAs (optional)
-Add here any questions you have for us related to the proposed project.
+- Can we use multiple time series from google trends and apply some dimension reduction (as PCA or Auto-encoders) before fitting the models?
+
+
