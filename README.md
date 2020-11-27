@@ -18,7 +18,7 @@ The paper has shown a clear improvement in near-term forecasting performance by 
 ## Methods
 - Data collection: extract the index/stock time series for 2020 from Yahoo and (naively) the related search term queries from Google Trends.
 - Models: Build a simple AR model for forecasting and try ways to improve the search terms selection and dimensionality (PCA…)
-Analysis & improvement: Is there an improvement in the MSE with and without Trends data?
+- Analysis & improvement: Is there an improvement in the MSE with and without Trends data?
 
 ## Proposed timeline
 - Week 1:
@@ -28,13 +28,13 @@ Analysis & improvement: Is there an improvement in the MSE with and without Tren
     - Task C: Fit a simple baseline model.
     - Task D: Add Trend data, compare the performance and redo task B if necessary.
 - Week 3:
-    - Task E: Try to improve the model (we may not have the time to complete this task)
-    - Task F: Conclude, prepare the data story and film the video
+    - Task E: Try to improve the model (we may not have the time to complete this task).
+    - Task F: Conclude, prepare the data story and film the video.
 
 
 ## Organization within the team
 - A: Mongi will extract the Yahoo dataset while Lara and Nour will list the relevant search terms and extract them from google Trends
-- B: everyone will brainstorm on the search term selection improvement
+- B: Everyone will brainstorm on the search term selection improvement
 - C: Nour will fit a baseline model add Trends data 
 - D: In the meantime Lara and Mongi will try to implement the previously brainstormed ideas from task B.
 - E: If we have time, we will all work on it
