@@ -4,6 +4,7 @@
 We wanted to do what is explained below but we talked with the TA's and they explained to us how difficult it would be to implement and get significant results in only 3 weeks (and making the presentation too). So instead, we could improve one of the examples in the paper by :
 - Choosing better Google Trends time series using dimension reduction (for example PCA).
 - Improving the base and trends models by using more complex models than seasonal AR and linear regression.
+
 We could also do another sales example.
 
 ## Title
