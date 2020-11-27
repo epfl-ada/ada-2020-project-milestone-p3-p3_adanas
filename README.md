@@ -4,19 +4,24 @@
 We wanted to do what is explained below but we talked with the TA's and they explained to us how difficult it would be to implement and get significant results in only 3 weeks (and making the presentation too). So instead, we could improve one of the examples in the paper by :
 - Choosing better Google Trends time series using dimension reduction (for example PCA).
 - Improving the base and trends models by using more complex models than seasonal AR and linear regression.
+- Some of the research questions we could work on would be: Would spikes in Google Trends data concerning some specific terms affect some financial index? And in what way?
 
 We could also do another sales example.
 
 ## Title
-Quantifying trading behavior for near-term crisis prediction.
+- Quantifying trading behavior for near-term crisis prediction.
+or
+- Google trends in Finance (broad title)
 
 ## Abstract
 The paper shows a clear improvement in near-term forecasting performance by adding appropriate Google Trends time series as predictors. In particular, as seen in the replicated figure 2, they highly outperform regular models during recessions. This suggests that quantifying traders psychology, specifically fear, using Google Trends may improve predicting the close future financial crisis. This seems interesting since we just witnessed the covid-19 crisis in march 2020. This field of research is known as behavioral finance.
 
 ## Research Questions
-- Can we use the stock market data and Google Trends for january and february 2020 to predict the stock market crash of march 2020?
+- Can we use the stock market data and Google Trends for january and february 2020 to predict the stock market crash of march 2020? (Hard to implement)
 - How much it outperforms models not using Google Trends?
-- What are the list of queries that are significant in this case? 
+- What are the list of queries that are significant in this case?
+- What terms of Google queries affect certain stock indexes ?
+- How does Google trends data correlated with stock volatility ?
 
 ## Proposed dataset
 - Dow Jones Industrial Average (DJIA)
