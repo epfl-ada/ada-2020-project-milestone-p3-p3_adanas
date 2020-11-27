@@ -1,5 +1,11 @@
 # ada-2020-project-milestone-p3-p3_adanas
 
+## Remark
+We wanted to do what is explained below but we talked with the TA's and they explained to us how difficult it would be to implement and get significant results in only 3 weeks (and making the presentation too). So instead, we could improve one of the examples in the paper by :
+- Choosing better Google Trends time series using dimension reduction (for example PCA).
+- Improving the base and trends models by using more complex models than seasonal AR and linear regression.
+We could also do another sales example.
+
 ## Title
 Quantifying trading behavior for near-term crisis prediction.
 
@@ -29,8 +35,7 @@ As done in the paper, we should first find a rather simple forecasting model for
 - Task D: Conclusion
 
 ## Organization within the team
-- 
-- 
+-
 
 ## Questions for TAs (optional)
 - Can we use multiple time series from google trends and apply some dimension reduction (as PCA or Auto-encoders) before fitting the models?
