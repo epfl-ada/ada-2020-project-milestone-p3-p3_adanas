@@ -4,37 +4,41 @@
 Quantifying related search terms impact on the NASDAQ during the COVID-19 crisis.
 
 ## Abstract
-The paper has shown a clear improvement in near-term forecasting performance by adding appropriate Google Trends time series as predictors, in particular during recessions. While the paper was focused on economic indicators, we would like to tackle the stock market and especially the NASDAQ index (subject to change for an individual stock). Our goal will be to relate the index volatility to related terms query volume during the COVID-19. To do so we will first need to find the most relevant search terms for the selected index/stock. Then, we will use an AR model and log transformation (with and without Trends data) to forecast the stock’s volatility. Finally we’ll try to improve this model.
+The paper has shown a clear improvement in near-term forecasting performance by adding appropriate Google Trends time series as predictors, in particular during recessions. While the paper was focused on economic indicators, we would like to tackle the stock market and especially the NASDAQ index (subject to change for an individual stock). Our goal will be to to relate the index volatility to related terms query volume during the COVID-19. To do so we will first need to find the most relevant search terms for the selected index/stock. Then, we will use an AR model (with and without Trends data) to forecast the index/stock volatility. Finally we’ll try to improve this model.
 
-## Research Questions
-- What models perform the best when it comes to forecasting stock volatility?
-- Can we use the stock market data and Google Trends for january and february 2020 to predict the stock market crash of march 2020? (Hard to implement)
-- How much it outperforms models not using Google Trends?
-- What are the list of queries that are significant in this case?
+## Research questions
 - How can we select the most relevant search terms?
-- How is Google Trends data correlated with stock volatility ?
+- How much does adding Trends data outperform models not using it?
+- What models perform the best when it comes to forecasting stock volatility?
 
-## Proposed dataset
-- Dow Jones Industrial Average (DJIA)
-- S&P 500 Index
-- Nasdaq Composite
+## Proposed datasets
+- Nasdaq Composite ( [yfinance](https://pypi.org/project/yfinance/) )
 - Google Trends (of course…)
 
-All the financial datasets are available on Yahoo Finance and can be accessed using the library [yfinance](https://pypi.org/project/yfinance/).
-
 ## Methods
-As done in the paper, we should first find a rather simple forecasting model for the market index price and improve it by adding appropriate Google Trends time series. First, we should have a list of keywords (queries) that are significant. Second, find the base model. Finally, improve the model and quantify the improvement in forecasting performance.
+- Data collection: extract the index/stock time series for 2020 from Yahoo and (naively) the related search term queries from Google Trends.
+- Models: Build a simple AR model for forecasting and try ways to improve the search terms selection and dimensionality (PCA…)
+Analysis & improvement: Is there an improvement in the MSE with and without Trends data?
 
 ## Proposed timeline
-- Task A: Get the Yahoo data and check if it needs some cleaning or transformation.
-- Task B: Find a way to determine the search terms for which a change in query volume is related to a change in the index volatility.
-- Task C: Fit a baseline model and an improved model.
-- Task D: Compare our results and interpret them.
-- Task E: Conclusion.
+- Week 1:
+    - Task A: Get the Yahoo data and check it. It may need some cleaning or transformation.
+    - Task B: Brainstorm ways to determine the search terms for which a change in query volume is related to a change in the concerned stock volatility.
+- Week 2:
+    - Task C: Fit a simple baseline model.
+    - Task D: Add Trend data, compare the performance and redo task B if necessary.
+- Week 3:
+    - Task E: Try to improve the model (we may not have the time to complete this task)
+    - Task F: Conclude, prepare the data story and film the video
+
 
 ## Organization within the team
+- A: Mongi will extract the Yahoo dataset while Lara and Nour will list the relevant search terms and extract them from google Trends
+- B: everyone will brainstorm on the search term selection improvement
+- C: Nour will fit a baseline model add Trends data 
+- D: In the meantime Lara and Mongi will try to implement the previously brainstormed ideas from task B.
+- E: If we have time, we will all work on it
+- F: Lara and Nour will focus on writing the data story/Report and preparing all needed figures and examples.
+- (G): Wrap-up and final touches. (Everyone)
 
 ## Questions for TAs (optional)
-- Can we use multiple time series from google trends and apply some dimension reduction (as PCA or Auto-encoders) before fitting the models?
-
-
