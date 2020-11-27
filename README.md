@@ -31,7 +31,6 @@ The paper has shown a clear improvement in near-term forecasting performance by 
     - Task E: Try to improve the model (we may not have the time to complete this task).
     - Task F: Conclude, prepare the data story and film the video.
 
-
 ## Organization within the team
 - A: Mongi will extract the Yahoo dataset while Lara and Nour will list the relevant search terms and extract them from google Trends
 - B: Everyone will brainstorm on the search term selection improvement
@@ -40,5 +39,8 @@ The paper has shown a clear improvement in near-term forecasting performance by 
 - E: If we have time, we will all work on it
 - F: Lara and Nour will focus on writing the data story/Report and preparing all needed figures and examples.
 - (G): Wrap-up and final touches. (Everyone)
+
+## Reference for inspiration
+"Quantifying Trading Behavior in Financial Markets Using Google Trends", Tobias Preis, Helen Susannah Moat & H. Eugene Stanley, 2013
 
 ## Questions for TAs (optional)
