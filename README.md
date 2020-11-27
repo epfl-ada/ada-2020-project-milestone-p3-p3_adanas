@@ -17,7 +17,7 @@ S&P 500 Index
 Nasdaq Composite
 Google Trends (of course…)
 
-All the financial datasets are available on Yahoo Finance and can be accessed using the library yfinance.
+All the financial datasets are available on Yahoo Finance and can be accessed using the library [yfinance](https://pypi.org/project/yfinance/).
 
 ## Methods
 As done in the paper, we should first find a rather simple forecasting model for the market index price and improve it by adding appropriate Google Trends time series. First, we should have a list of keywords (queries) that are significant. Second, find the base model. Finally, improve the model and quantify the improvement in forecasting performance.
