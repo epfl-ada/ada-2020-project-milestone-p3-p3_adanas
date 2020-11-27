@@ -7,15 +7,15 @@ Quantifying trading behavior for near-term crisis prediction.
 The paper shows a clear improvement in near-term forecasting performance by adding appropriate Google Trends time series as predictors. In particular, as seen in the replicated figure 2, they highly outperform regular models during recessions. This suggests that quantifying traders psychology, specifically fear, using Google Trends may improve predicting the close future financial crisis. This seems interesting since we just witnessed the covid-19 crisis in march 2020. This field of research is known as behavioral finance.
 
 ## Research Questions
-Can we use the stock market data and Google Trends for january and february 2020 to predict the stock market crash of march 2020? 
-How much it outperforms models not using Google Trends?
-What are the list of queries that are significant in this case? 
+- Can we use the stock market data and Google Trends for january and february 2020 to predict the stock market crash of march 2020?
+- How much it outperforms models not using Google Trends?
+- What are the list of queries that are significant in this case? 
 
 ## Proposed dataset
-Dow Jones Industrial Average (DJIA) 
-S&P 500 Index
-Nasdaq Composite
-Google Trends (of course…)
+- Dow Jones Industrial Average (DJIA)
+- S&P 500 Index
+- Nasdaq Composite
+- Google Trends (of course…)
 
 All the financial datasets are available on Yahoo Finance and can be accessed using the library [yfinance](https://pypi.org/project/yfinance/).
 
