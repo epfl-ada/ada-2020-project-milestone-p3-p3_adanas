@@ -32,13 +32,14 @@ The paper has shown a clear improvement in near-term forecasting performance by 
     - Task F: Conclude, prepare the data story and film the video.
 
 ## Organization within the team
-- A: Mongi will extract the Yahoo dataset while Nour will list the relevant search terms and extract them from google Trends
-- B: Mongi and Nour will brainstorm on the search term selection improvement
-- C: Mongi will fit a baseline model and add Trends data 
-- D: In the meantime Mongi will try to implement the previously brainstormed ideas from task B.
-- E: If we have time, we will all work on it (Everyone)
-- F: Nour will focus on writing the data story/Report and preparing all needed figures and examples.
-- (G): Wrap-up and final touches. (Everyone)
+- A: Mongi extracted the Yahoo dataset while Nour listed the relevant search terms and extracted them from google Trends.
+- B: Mongi and Nour will brainstorm on the search term selection improvement.
+- C: Mongi developed and fitted a baseline model and a trends model.
+- D: In the meantime Mongi implemented the previously brainstormed ideas from task B.
+- E: Upload an html template and create repo for data story. (Everyone)
+- F: Mongi finished the notebook explaining the ideas, methods, math and code.
+- G: Mongi and Nour focused on writing the data story and preparing all needed figures and examples.
+- H: Wrap-up and final touches. (Mongi and Nour) 
 
 ## Reference for inspiration
 "Quantifying Trading Behavior in Financial Markets Using Google Trends", Tobias Preis, Helen Susannah Moat & H. Eugene Stanley, 2013
